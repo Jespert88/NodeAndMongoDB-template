@@ -7,7 +7,8 @@ module.exports = function (app) {
     let User = userModel; */
    
     app.get("/", function (req, res) {
-        res.send("Hello from server")
+        res.send("Hello from server");
+        console.log("Hello from server");
     });
 
     //Get all users (Admin).
